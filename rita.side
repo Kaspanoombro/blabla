@@ -1,0 +1,1672 @@
+{
+  "id": "f78c83e5-8969-4856-810e-a05980a59c0f",
+  "version": "2.0",
+
+  "name": "projeto Logo",
+
+  "url": "http://automationpractice.com/index.php",
+
+  "tests": [{
+
+    "id": "e0f0af86-497d-495f-88f7-0be4f51ce6a3",
+
+    "name": "Pesquisa com resultado",
+
+    "commands": [{
+
+      "id": "9c9f0b74-4a5a-4e57-9d5f-b9f5110987c3",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/index.php",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "c33094b9-0516-4610-aeca-fc73d953cbd9",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "7e3a0884-3c1a-4dfa-94e7-a9a2cb1d1818",
+
+      "comment": "",
+
+      "command": "type",
+
+      "target": "xpath=//*[@id=\"search_query_top\"]",
+
+      "targets": [
+
+        ["id=search_query_top", "id"],
+
+        ["name=search_query", "name"],
+
+        ["css=#search_query_top", "css:finder"],
+
+        ["xpath=//input[@id='search_query_top']", "xpath:attributes"],
+
+        ["xpath=//form[@id='searchbox']/input[4]", "xpath:idRelative"],
+
+        ["xpath=//input[4]", "xpath:position"]
+
+      ],
+
+      "value": "dresses"
+
+    }, {
+
+      "id": "b2d4e7ec-f4e5-4e49-aada-807779476f59",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "name=submit_search",
+
+      "targets": [
+
+        ["name=submit_search", "name"],
+
+        ["css=.button-search", "css:finder"],
+
+        ["xpath=//button[@name='submit_search']", "xpath:attributes"],
+
+        ["xpath=//form[@id='searchbox']/button", "xpath:idRelative"],
+
+        ["xpath=//button", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "86119482-e866-4fd4-9732-7d7e437f2f19",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste com sucesso",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "65c7028c-2e74-4a0c-a650-c2cc11e034f2",
+
+    "name": "Validação View",
+
+    "commands": [{
+
+      "id": "3b1d3dfe-0d35-48cf-8fbb-c34b9ac8dc83",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "c96d4ec2-828b-4b31-a03f-843cf416f858",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "0d919760-eac6-4d45-ac32-c783a8c99f4d",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[1]/a",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "6eea934d-6182-41ee-9475-2f296f5cfaf3",
+
+      "comment": "",
+
+      "command": "mouseDownAt",
+
+      "target": "xpath=//*[@id=\"center_column\"]/div[4]/div/div[2]",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "3d428b6e-564f-45ff-bdba-8432b143718c",
+
+      "comment": "Select View List",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"list\"]/a/i",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "8816ed87-5115-4131-a3f4-1f66ecfb800c",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "5000",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "992c03ef-a31e-486e-b228-88ee93f090d7",
+
+      "comment": "Select View Grid",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"grid\"]/a/i",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "2c1703f8-723d-47d0-8e9f-7e83e1b73b8f",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "5000",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "12a8fd9d-de40-4bcf-98a2-23fb82aebdee",
+
+      "comment": "",
+
+      "command": "",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "d462b9b0-3fa3-4317-b58a-35ba5ef08ea7",
+
+    "name": "Validar filtro: Sort By",
+
+    "commands": [{
+
+      "id": "c9ef2872-cc9a-4fd0-9cc4-ba81f9e8db80",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "9f1f8620-d1d1-416a-9e05-1a817b3c6684",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+     "id": "fee6bfa2-58c6-4919-948f-d1c0aed942ff",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[2]/a",
+
+      "targets": [
+
+        ["css=.sfHover > .submenu-container", "css:finder"],
+
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul", "xpath:idRelative"],
+
+        ["xpath=//div[6]/ul/li[2]/ul", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "d269f81b-72e0-484d-b1d0-d0e654e34f3a",
+
+      "comment": "",
+
+      "command": "mouseDown",
+
+      "target": "id=selectProductSort",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "6ec37bc2-e759-43cb-89a4-c55a11392e45",
+
+      "comment": "",
+
+      "command": "times",
+
+      "target": "4",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "cb684868-f6db-4cb0-b75c-a3b95e9ff576",
+
+      "comment": "",
+
+      "command": "executeScript",
+
+      "target": "return Math.floor(Math.random() * 7)",
+
+      "targets": [],
+
+      "value": "random"
+
+    }, {
+
+      "id": "2a54de2d-cccf-45a0-a03d-620ce2b78253",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "${random}",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "b98ea50c-cfdf-4bdc-9a60-6dd7e4a6174f",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"selectProductSort\"]/option[${random}]",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "0b548c50-c0e8-4a89-90a3-4fc8abf06ab8",
+
+      "comment": "",
+
+      "command": "mouseDown",
+
+      "target": "css=.ajax_block_product:nth-child(5) .replace-2x",
+
+      "targets": [
+
+        ["css=.ajax_block_product:nth-child(5) .replace-2x", "css:finder"],
+
+        ["xpath=(//img[@alt='Printed Dress'])[2]", "xpath:img"],
+
+        ["xpath=//div[@id='center_column']/ul/li[5]/div/div/div/a/img", "xpath:idRelative"],
+
+        ["xpath=//li[5]/div/div/div/a/img", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "d37bfee9-dce8-4cc8-a81a-f4b04049e3b0",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste concluido",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "a13ce882-b6a6-4798-bf20-b9189ffdec72",
+
+      "comment": "",
+
+      "command": "end",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "e3a63a7a-1631-437a-8dbe-6e3072887f09",
+
+    "name": "Validar Paginação",
+
+    "commands": [{
+
+      "id": "491d8d97-1bec-4795-9d45-245fffb2bec8",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "993ca1b6-4458-4f56-8e45-3155cb54814c",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "d8fc325a-bc18-4f0c-b783-c9d756b44885",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[1]/a",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "6d16e10f-822f-4869-9665-62a03566e7ab",
+
+      "comment": "",
+
+      "command": "assertElementPresent",
+
+      "target": "xpath=//*[@id=\"pagination_bottom\"]",
+
+      "targets": [],
+
+      "value": "Showing"
+
+    }, {
+
+      "id": "3e29622e-aedb-41e8-b4cd-16a4e5358d00",
+
+      "comment": "",
+
+      "command": "store",
+
+      "target": "xpath=//*[@id=\"pagination_bottom\"]",
+
+      "targets": [],
+
+      "value": "Paginacao"
+
+    }, {
+
+      "id": "64fdbf14-0527-4f1a-82ce-9ca2995421dd",
+
+      "comment": "",
+
+      "command": "//executeScript",
+
+      "target": "return ${Paginacao}",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "27fefe70-65cf-4116-b69e-7e6179a43910",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "xpath=//*[@id=\"pagination_bottom\"]",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "0af1bdc1-4d19-4140-8104-85cc67da8628",
+
+    "name": "Pesquisa sem resultado ",
+
+    "commands": [{
+
+      "id": "0e88359c-5152-4f77-bea2-f8dc4da723f9",
+
+     "comment": "",
+
+      "command": "open",
+
+      "target": "/index.php",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "38333ab3-44d7-4626-a03d-cab0248cfabd",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "c8e49ada-69b8-4a58-b467-34cf60eb208b",
+
+      "comment": "",
+
+      "command": "type",
+
+      "target": "xpath=//*[@id=\"search_query_top\"]",
+
+      "targets": [
+
+        ["id=search_query_top", "id"],
+
+        ["name=search_query", "name"],
+
+        ["css=#search_query_top", "css:finder"],
+
+        ["xpath=//input[@id='search_query_top']", "xpath:attributes"],
+
+        ["xpath=//form[@id='searchbox']/input[4]", "xpath:idRelative"],
+
+        ["xpath=//input[4]", "xpath:position"]
+
+      ],
+
+      "value": "bikini"
+
+    }, {
+
+      "id": "5206952b-7dd9-484e-b276-601a92dfefc9",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "name=submit_search",
+
+      "targets": [
+
+        ["name=submit_search", "name"],
+
+        ["css=.button-search", "css:finder"],
+
+        ["xpath=//button[@name='submit_search']", "xpath:attributes"],
+
+        ["xpath=//form[@id='searchbox']/button", "xpath:idRelative"],
+
+        ["xpath=//button", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "b18d661c-146d-43dc-a720-fb6a75ff8e68",
+
+      "comment": "",
+
+      "command": "waitForText",
+
+      "target": "xpath=//*[@id=\"center_column\"]/p",
+
+      "targets": [],
+
+      "value": "No results were found for your search \"bikini\""
+
+    }, {
+
+      "id": "5d841c1b-217f-4c32-b27e-d8687206d7bb",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste com sucesso",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "99d23a5e-968e-4cae-8c54-60310ec9f7bd",
+
+    "name": "Pesquisa Falhada",
+
+    "commands": [{
+
+      "id": "8c639e12-5ba7-4c5a-b50c-f195c275a976",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/index.php",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "be667c86-5984-4b1f-8f61-dc137b316712",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "0f24ae25-3dc8-4efd-8b00-1d5ac7fb8eed",
+
+      "comment": "",
+
+      "command": "type",
+
+      "target": "xpath=//*[@id=\"search_query_top\"]",
+
+      "targets": [
+
+        ["id=search_query_top", "id"],
+
+        ["name=search_query", "name"],
+
+        ["css=#search_query_top", "css:finder"],
+
+        ["xpath=//input[@id='search_query_top']", "xpath:attributes"],
+
+        ["xpath=//form[@id='searchbox']/input[4]", "xpath:idRelative"],
+
+        ["xpath=//input[4]", "xpath:position"]
+
+      ],
+
+      "value": "34262618aqqq"
+
+    }, {
+
+      "id": "c60e085d-185a-4eb5-a80b-86cee92bf84b",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "name=submit_search",
+
+      "targets": [
+
+        ["name=submit_search", "name"],
+
+        ["css=.button-search", "css:finder"],
+
+        ["xpath=//button[@name='submit_search']", "xpath:attributes"],
+
+        ["xpath=//form[@id='searchbox']/button", "xpath:idRelative"],
+
+        ["xpath=//button", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "ef71f14f-5488-4768-82f7-539838ef6b4d",
+
+      "comment": "",
+
+      "command": "waitForText",
+
+      "target": "xpath=//*[@id=\"center_column\"]/p",
+
+      "targets": [],
+
+      "value": "No results were found for your search"
+
+    }, {
+
+      "id": "0e0abb94-8344-4415-8265-1d6d611be0a1",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste com sucesso",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "4c6ea076-a7a3-4f7c-a92f-96334535fde9",
+
+    "name": "Validar filtros laterais",
+
+    "commands": [{
+
+      "id": "d5cbfeaa-19aa-4023-87fa-0310c0c2ee25",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "0857be01-c982-4f41-9c08-0a62b9e28415",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "985fabbd-adae-4c39-b22b-0c79f2d37b35",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[1]/a",
+
+      "targets": [
+
+        ["css=.sfHover > .submenu-container", "css:finder"],
+
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul", "xpath:idRelative"],
+
+        ["xpath=//div[6]/ul/li[2]/ul", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "03c150f6-c6e6-449e-9321-338e9452fd07",
+
+      "comment": "",
+
+      "command": "mouseDown",
+
+      "target": "//*[@id=\"ul_layered_id_feature_6\"]",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "a2abb961-7962-419b-9263-44644dc5e720",
+
+      "comment": "",
+
+      "command": "executeScript",
+
+      "target": "return Math.floor(Math.random() * 2)",
+
+      "targets": [],
+
+      "value": "random"
+
+    }, {
+
+      "id": "d541fa7a-9d26-4139-b113-75b7e328df15",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "${random}",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "cb12d565-aaf6-4b7b-b9bb-b1ae71e9fd12",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"uniform-layered_category_4\"]",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "5f5c4a26-1da1-4035-8801-a85b4f0e04f0",
+
+      "comment": "",
+
+      "command": "mouseDown",
+
+      "target": "css=.ajax_block_product:nth-child(5) .replace-2x",
+
+      "targets": [
+
+        ["css=.ajax_block_product:nth-child(5) .replace-2x", "css:finder"],
+
+        ["xpath=(//img[@alt='Printed Dress'])[2]", "xpath:img"],
+
+        ["xpath=//div[@id='center_column']/ul/li[5]/div/div/div/a/img", "xpath:idRelative"],
+
+        ["xpath=//li[5]/div/div/div/a/img", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "dda660e5-6bf4-46af-8996-85f799372bf4",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"layered_category_4\"]",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "67ecdefd-1ca1-48c0-88cf-2d370c73920b",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste concluido",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "e6295838-b547-494a-ab35-31a0611fe9d4",
+
+    "name": "Efectuar Compra",
+
+    "commands": [{
+
+      "id": "63dc1c0e-aa2a-4759-a0fa-aca0b9d06aa5",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "cd1bea57-9e27-4823-8d00-5d58deb5abfb",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "ff69b9b5-0508-45d1-b0ec-3deb1a70abb9",
+
+      "comment": "Selecionar Menu Dresses",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[2]/a",
+
+      "targets": [
+
+        ["css=.sfHover > .submenu-container", "css:finder"],
+
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul", "xpath:idRelative"],
+
+        ["xpath=//div[6]/ul/li[2]/ul", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "9b70c4ee-6b81-4288-bf2b-b1bdb1792f67",
+
+     "comment": "Descer",
+
+      "command": "mouseDown",
+
+      "target": "id=selectProductSort",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "77168462-cf78-440b-b6f5-c51c681949d6",
+
+      "comment": "Ciclo de 3 compras",
+
+      "command": "times",
+
+      "target": "3",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "1d955b78-2de6-4e5c-9c8e-8e516d0bb442",
+
+      "comment": "Random ",
+
+      "command": "executeScript",
+
+      "target": "return Math.floor(Math.random() * 7)",
+
+      "targets": [],
+
+      "value": "random"
+
+    }, {
+
+      "id": "eb6e5bd8-0dca-45be-9772-e061e34b5590",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "${random}",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "f7e57ab6-92cc-42f6-8eb7-ec8c70d17ea9",
+
+      "comment": "Selecionar filtro random",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"selectProductSort\"]/option[${random}]",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "35e618c7-c6c9-419c-af52-11dc718ebfe2",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": "3000"
+
+    }, {
+
+      "id": "cb7f35cc-f812-42f6-945b-9a311ac794fc",
+
+      "comment": "Posição da ecrã",
+
+      "command": "executeScript",
+
+      "target": "window.scroll(30, 30)",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "7a1cdfcf-8711-493a-81c2-a5e409bb26a2",
+
+      "comment": "",
+
+      "command": "mouseOver",
+
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li[1]/div/div[1]/div/a[1]/img",
+
+      "targets": [],
+
+      "value": "900000"
+
+    }, {
+
+      "id": "e2e36ef3-c664-44b4-8b60-476df8b50ec5",
+
+      "comment": "",
+
+      "command": "mouseMoveAt",
+
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li[1]/div/div[2]/div[2]/a[1]",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "1e9ab88c-15d5-4afd-834f-4c566a93f7ff",
+
+      "comment": "Add ao carrinho",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li[1]/div/div[2]/div[2]/a[1]",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "3c1f1e3f-338b-4c29-9d18-52beb7f6476f",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": "3000"
+
+    }, {
+
+      "id": "f375eef4-8016-4d62-9c63-c4d4e7a3ab28",
+
+      "comment": "apresentação do pop-up",
+
+      "command": "storeWindowHandle",
+
+      "target": "xpath=//*[@id=\"layer_cart\"]/div[1]",
+
+      "targets": [],
+
+      "value": "21000"
+
+    }, {
+
+      "id": "368de216-7acd-4b52-af87-23dfeea79504",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": "3000"
+
+    }, {
+
+      "id": "7536db14-3aa5-48d6-bdc0-050b8c46c53e",
+
+      "comment": "Voltar as compras",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/span",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "0735f7fa-2040-4f1b-8456-bffd3120ccb2",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste concluido",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "5ba1f05f-3b24-401f-8714-e3c7ef793cbf",
+
+      "comment": "",
+
+      "command": "end",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }, {
+
+    "id": "0284d930-5ce2-4e3c-b8e6-33dad8b75d38",
+
+    "name": "Add to Compare",
+
+    "commands": [{
+
+      "id": "1c5660dd-2ffe-45b0-a3ad-4dc229b2c83b",
+
+      "comment": "",
+
+      "command": "open",
+
+      "target": "/",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "26c2d4c4-e701-4813-abeb-11c31db106b7",
+
+      "comment": "",
+
+      "command": "setWindowSize",
+
+      "target": "1800x900",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "0158d2e8-117f-4d2c-a08e-5782a2d57c4c",
+
+      "comment": "Selecionar Menu Dresses",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[2]/a",
+
+      "targets": [
+
+        ["css=.sfHover > .submenu-container", "css:finder"],
+
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul", "xpath:idRelative"],
+
+        ["xpath=//div[6]/ul/li[2]/ul", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "fe7c6794-7b55-4f81-b255-b1408da0ba1f",
+
+      "comment": "",
+
+      "command": "mouseDown",
+
+      "target": "id=selectProductSort",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "9168328c-bf25-4843-80b2-345ba4b0f2d5",
+
+      "comment": "",
+
+      "command": "times",
+
+      "target": "3",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "78488616-222e-4dea-84b1-161c3f030269",
+
+      "comment": "Random ",
+
+      "command": "executeScript",
+
+      "target": "return Math.floor(Math.random() * 7)",
+
+      "targets": [],
+
+      "value": "random"
+
+    }, {
+
+      "id": "8b8f7d89-cc9d-468a-8b70-18c1b628127e",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "${random}",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "4d879a6e-b90b-4348-ac08-02fe5ba05968",
+
+      "comment": "Selecionar filtro random",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"selectProductSort\"]/option[${random}]",
+
+      "targets": [
+
+        ["id=selectProductSort", "id"],
+
+        ["css=#selectProductSort", "css:finder"],
+
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+
+        ["xpath=//select", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "135f2a89-2291-41dd-a859-a7374b0e949a",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": "3000"
+
+    }, {
+
+      "id": "adf64d5d-70d7-435d-aee7-0d5803dc98d5",
+
+      "comment": "",
+
+      "command": "mouseDown",
+
+      "target": "css=.ajax_block_product:nth-child(5) .replace-2x",
+
+      "targets": [
+
+        ["css=.ajax_block_product:nth-child(5) .replace-2x", "css:finder"],
+
+        ["xpath=(//img[@alt='Printed Dress'])[2]", "xpath:img"],
+
+        ["xpath=//div[@id='center_column']/ul/li[5]/div/div/div/a/img", "xpath:idRelative"],
+
+        ["xpath=//li[5]/div/div/div/a/img", "xpath:position"]
+
+      ],
+
+      "value": ""
+
+    }, {
+
+      "id": "bf8c56df-a39f-4dc2-86f0-f1cde6dcf6d0",
+
+      "comment": "",
+
+      "command": "executeScript",
+
+      "target": "window.scroll(30, 30)",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "79a8b6f3-2e37-415d-b295-626a36558df8",
+
+      "comment": "",
+
+      "command": "mouseOver",
+
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li[1]/div/div[1]/div/a[1]/img",
+
+      "targets": [],
+
+      "value": "900000"
+
+    }, {
+
+      "id": "93374f4d-3be4-4d8c-b7c2-19477d9a694e",
+
+      "comment": "",
+
+     "command": "mouseMoveAt",
+
+      "target": "xpath=//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/span",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "d2cb247c-fee0-4f87-bcee-e9e83d0ac4bf",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li[1]/div/div[3]/div[2]",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "d1457222-187b-4124-91be-0c9be92e2c84",
+
+      "comment": "",
+
+      "command": "storeWindowHandle",
+
+      "target": "xpath=//*[@id=\"layer_cart\"]/div[1]",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "f47d9dff-6681-40b2-a4cd-bb4b49e08049",
+
+      "comment": "",
+
+      "command": "pause",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": "3000"
+
+    }, {
+
+      "id": "5ba854b7-839f-4e94-be1a-bcbb6ad2b2b0",
+
+      "comment": "",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li[1]/div/div[3]/div[2]/a",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "1d7b92b7-45aa-4daf-8865-056acaabd161",
+
+      "comment": "",
+
+      "command": "end",
+
+      "target": "",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "6b618c10-58cb-4206-b2dd-31463e1bfa9f",
+
+      "comment": "Comparação",
+
+      "command": "click",
+
+      "target": "xpath=//*[@id=\"center_column\"]/div[3]/div[2]/form/button",
+
+      "targets": [],
+
+      "value": ""
+
+    }, {
+
+      "id": "35e08586-032a-4a1f-972c-d71aa7f64a71",
+
+      "comment": "",
+
+      "command": "echo",
+
+      "target": "Teste concluido",
+
+      "targets": [],
+
+      "value": ""
+
+    }]
+
+  }],
+
+  "suites": [{
+
+    "id": "f354d06f-8618-46b9-a886-bec760ce11e6",
+
+    "name": "Pesquisa",
+
+    "persistSession": false,
+
+    "parallel": false,
+
+    "timeout": 300,
+
+    "tests": ["e0f0af86-497d-495f-88f7-0be4f51ce6a3", "0af1bdc1-4d19-4140-8104-85cc67da8628", "99d23a5e-968e-4cae-8c54-60310ec9f7bd"]
+
+  }, {
+
+    "id": "577d29ee-ccb0-46a6-a1e6-c4c7bf659f3f",
+
+    "name": "Filtros",
+
+    "persistSession": false,
+
+    "parallel": false,
+
+    "timeout": 300,
+
+    "tests": ["e3a63a7a-1631-437a-8dbe-6e3072887f09", "d462b9b0-3fa3-4317-b58a-35ba5ef08ea7"]
+
+  }, {
+
+    "id": "337a4a87-74f9-43cf-925f-d40dd9bd79dc",
+
+    "name": "View",
+
+    "persistSession": false,
+
+    "parallel": false,
+
+    "timeout": 300,
+
+    "tests": ["65c7028c-2e74-4a0c-a650-c2cc11e034f2"]
+
+  }, {
+
+    "id": "86b111e8-5122-4366-9cb4-856634a20187",
+
+    "name": "Carrinho de Compras",
+
+    "persistSession": false,
+
+    "parallel": false,
+
+    "timeout": 300,
+
+    "tests": ["e6295838-b547-494a-ab35-31a0611fe9d4", "0284d930-5ce2-4e3c-b8e6-33dad8b75d38"]
+
+  }],
+
+  "urls": ["http://automationpractice.com/index.php", "http://automationpractice.com/"],
+
+  "plugins": []
+
+}
+
